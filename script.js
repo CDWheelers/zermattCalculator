@@ -455,8 +455,8 @@ function MCalculate() {
 
     // Update the total energy display
     let totalEnergyElement = document.querySelector('#Total_Energy span');
-    totalEnergyElement.textContent = totalEnergy.toFixed(0) + ' Wh/day';
-    document.querySelector('.power_requirement span').textContent = totalEnergy.toFixed(0) + ' Wh';
+    totalEnergyElement.textContent = totalEnergy.toFixed(0) + ' W/day';
+    document.querySelector('.power_requirement span').textContent = totalEnergy.toFixed(0) + ' W';
 
 }
 
